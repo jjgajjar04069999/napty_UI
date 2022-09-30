@@ -83,6 +83,137 @@ class BodyMeasurementView extends StatelessWidget {
                                   ),
                                   Padding(
                                     padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(
                                         left: 8, bottom: 8),
                                     child: Text(
                                       'Ibs',
@@ -152,17 +283,20 @@ class BodyMeasurementView extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(
-                          left: 24, right: 24, top: 8, bottom: 8),
-                      child: Container(
-                        height: 2,
-                        decoration: BoxDecoration(
-                          color: FitnessAppTheme.background,
-                          borderRadius: BorderRadius.all(Radius.circular(4.0)),
-                        ),
-                      ),
-                    ),
+                   Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
+                                    ),
+                                  ),
                     Padding(
                       padding: const EdgeInsets.only(
                           left: 24, right: 24, top: 8, bottom: 16),
@@ -185,19 +319,19 @@ class BodyMeasurementView extends StatelessWidget {
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.only(top: 6),
-                                  child: Text(
-                                    'Height',
-                                    textAlign: TextAlign.center,
-                                    style: TextStyle(
-                                      fontFamily: FitnessAppTheme.fontName,
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 12,
-                                      color:
-                                          FitnessAppTheme.grey.withOpacity(0.5),
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
+                                      ),
                                     ),
                                   ),
-                                ),
                               ],
                             ),
                           ),
@@ -259,20 +393,20 @@ class BodyMeasurementView extends StatelessWidget {
                                         color: FitnessAppTheme.darkText,
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(top: 6),
-                                      child: Text(
-                                        'Body fat',
-                                        textAlign: TextAlign.center,
-                                        style: TextStyle(
-                                          fontFamily: FitnessAppTheme.fontName,
-                                          fontWeight: FontWeight.w600,
-                                          fontSize: 12,
-                                          color: FitnessAppTheme.grey
-                                              .withOpacity(0.5),
-                                        ),
+                                   Padding(
+                                    padding: const EdgeInsets.only(
+                                        left: 4, bottom: 3),
+                                    child: Text(
+                                      '206.8',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FitnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w600,
+                                        fontSize: 32,
+                                        color: FitnessAppTheme.nearlyDarkBlue,
                                       ),
                                     ),
+                                  ),
                                   ],
                                 ),
                               ],

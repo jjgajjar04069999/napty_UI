@@ -45,17 +45,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                           color: isLightMode ? Colors.black : Colors.white),
                     ),
                   ),
-                  Container(
-                    padding: const EdgeInsets.only(top: 16),
-                    child: Text(
-                      'Give your best time for this moment.',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          fontSize: 16,
-                          color: isLightMode ? Colors.black : Colors.white),
-                    ),
-                  ),
-                  _buildComposer(),
+                  
                   Padding(
                     padding: const EdgeInsets.only(top: 16),
                     child: Center(

@@ -48,40 +48,46 @@ class _HomeDrawerState extends State<HomeDrawer> {
   }
 
   @override
-  Widget build(BuildContext context) {
-    bool isLightMode = brightness == Brightness.light;
-    return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: <Widget>[
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.only(top: 40.0),
-            child: Container(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: <Widget>[
-                  AnimatedBuilder(
-                    animation: widget.iconAnimationController!,
-                    builder: (BuildContext context, Widget? child) {
-                      return ScaleTransition(
-                        scale: AlwaysStoppedAnimation<double>(1.0 -
-                            (widget.iconAnimationController!.value) * 0.2),
-                        child: RotationTransition(
-                          turns: AlwaysStoppedAnimation<double>(Tween<double>(
-                                      begin: 0.0, end: 24.0)
-                                  .animate(CurvedAnimation(
-                                      parent: widget.iconAnimationController!,
-                                      curve: Curves.fastOutSlowIn))
-                                  .value /
-                              360),
-                          child: Container(
-                            height: 120,
-                            width: 120,
-                            decoration: BoxDecoration(
+  WicaleTransition(https://github.com/Ali03Developer/napty_UI(
+                              shape: BoxShape.circle,
+                              boxShadow: <BoxShadow>[
+                                BoxShadow(
+                                    color: AppTheme.grey.withOpacity(0.6),
+                                    offset: const Offset(2.0, 4.0),
+                                    blurRadius: 8),
+                              ],
+                            ),
+                            child: ClipRRect(
+                              borderRadius:
+                                  const BorderRadius.all(Radius.circular(60.0)),
+                              child: Image.asset('assets/images/userImage.png'),
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+
+  WicaleTransition(https://github.com/Ali03Developer/napty_UI(
+                              shape: BoxShape.circle,
+                              boxShadow: <BoxShadow>[
+                                BoxShadow(
+                                    color: AppTheme.grey.withOpacity(0.6),
+                                    offset: const Offset(2.0, 4.0),
+                                    blurRadius: 8),
+                              ],
+                            ),
+                            child: ClipRRect(
+                              borderRadius:
+                                  const BorderRadius.all(Radius.circular(60.0)),
+                              child: Image.asset('assets/images/userImage.png'),
+                            ),
+                          ),
+                        ),
+                      );
+                    },
+                  ),
+  WicaleTransition(https://github.com/Ali03Developer/napty_UI(
                               shape: BoxShape.circle,
                               boxShadow: <BoxShadow>[
                                 BoxShadow(

@@ -43,14 +43,16 @@ class _HelpScreenState extends State<HelpScreen> {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.only(top: 16),
-                child: Text(
-                  'It looks like you are experiencing problems\nwith our sign up process. We are here to\nhelp so please get in touch with us',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                      fontSize: 16,
-                      color: isLightMode ? Colors.black : Colors.white),
-                ),
+                Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Center(
+                    child: Container(
+                      width: 140,
+                      height: 40,
+                      decoration: BoxDecoration(
+                        color: isLightMode ? Colors.blue : Colors.white,
+                        borderRadius:
               ),
               Expanded(
                 child: Padding(
@@ -61,7 +63,13 @@ class _HelpScreenState extends State<HelpScreen> {
                       height: 40,
                       decoration: BoxDecoration(
                         color: isLightMode ? Colors.blue : Colors.white,
-                        borderRadius:
+                        borderRadius:hild: Text(
+                              child: Text(
+                              child: Text(
+                                'Chat with Us',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w500,
+                                  color:
                             const BorderRadius.all(Radius.circular(4.0)),
                         boxShadow: <BoxShadow>[
                           BoxShadow(
@@ -77,6 +85,8 @@ class _HelpScreenState extends State<HelpScreen> {
                           child: Center(
                             child: Padding(
                               padding: const EdgeInsets.all(4.0),
+                              child: Text(
+                              child: Text(
                               child: Text(
                                 'Chat with Us',
                                 style: TextStyle(

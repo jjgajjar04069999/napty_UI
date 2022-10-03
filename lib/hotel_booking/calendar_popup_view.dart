@@ -32,6 +32,35 @@ class _CalendarPopupViewState extends State<CalendarPopupView>
     with TickerProviderStateMixin {
   AnimationController? animationController;
   DateTime? startDate;
+    AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;  AnimationController? animationController;
+  DateTime? startDate;
+  DateTime? endDate;
   DateTime? endDate;
 
   @override
@@ -184,7 +213,103 @@ class _CalendarPopupViewState extends State<CalendarPopupView>
                                   endDate = endDateData;
                                 });
                               },
+                            ),            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
                             ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(            minimumDate: widget.minimumDate,
+                              maximumDate: widget.maximumDate,
+                              initialEndDate: widget.initialEndDate,
+                              initialStartDate: widget.initialStartDate,
+                              startEndDateChange: (DateTime startDateData,
+                                  DateTime endDateData) {
+                                setState(() {
+                                  startDate = startDateData;
+                                  endDate = endDateData;
+                                });
+                              },
+                            ),
+                            Padding(
                             Padding(
                               padding: const EdgeInsets.only(
                                   left: 16, right: 16, bottom: 16, top: 8),

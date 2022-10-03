@@ -68,28 +68,33 @@ class IntroductionAnimationScreen extends StatefulWidget {
         _animationController!.value <= 1.0) {
       _animationController?.animateTo(0.8);
     }
-body: ClipRect(
+
         child: Stack(
           children: [
             SplashView(
               animationController: _animationController!,
             ),
             RelaxView(
-              animationControbody: ClipRect(
+
         child: Stack(
           children: [
             SplashView(
               animationController: _animationController!,
             ),
             RelaxView(
-              animationControbody: ClipRect(
-        child: Stack(
-          children: [
-            SplashView(
-              animationController: _animationController!,
-            ),
-            RelaxView(
-              animationContro
+
+  }
+
+  void _signUpClick() {
+    Navigator.pop(context);
+  }
+}
+
+      _animationController?.animateTo(0.8);
+    } else if (_animationController!.value > 0.6 &&
+        _animationController!.value <= 0.8) {
+      _signUpClick();
+    }
   }
 
   void _signUpClick() {

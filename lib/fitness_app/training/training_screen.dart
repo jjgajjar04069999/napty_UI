@@ -37,6 +37,19 @@ class _TrainingScreenState extends State<TrainingScreen>
             topBarOpacity = 1.0;
           });
         }
+           scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }   scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }
       } else if (scrollController.offset <= 24 &&
           scrollController.offset >= 0) {
         if (topBarOpacity != scrollController.offset / 24) {
@@ -70,6 +83,19 @@ class _TrainingScreenState extends State<TrainingScreen>
       ),
     );
 
+       scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }   scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }
     listViews.add(
       WorkoutView(
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
@@ -97,7 +123,20 @@ class _TrainingScreenState extends State<TrainingScreen>
             parent: widget.animationController!,
             curve:
                 Interval((1 / count) * 4, 1.0, curve: Curves.fastOutSlowIn))),
-        animationController: widget.animationController!,
+        animationController: widget.animationControll
+           scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }   scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }er!,
       ),
     );
 
@@ -181,6 +220,19 @@ class _TrainingScreenState extends State<TrainingScreen>
                     borderRadius: const BorderRadius.only(
                       bottomLeft: Radius.circular(32.0),
                     ),
+                       scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }   scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }
                     boxShadow: <BoxShadow>[
                       BoxShadow(
                           color: FitnessAppTheme.grey
@@ -279,6 +331,21 @@ class _TrainingScreenState extends State<TrainingScreen>
                                   ),
                                 ),
                               ),
+                                 scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }
+           scrollController.addListener(() {
+      if (scrollController.offset >= 24) {
+        if (topBarOpacity != 1.0) {
+          setState(() {
+            topBarOpacity = 1.0;
+          });
+        }
+        
                             ),
                           ],
                         ),

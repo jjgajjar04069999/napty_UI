@@ -14,20 +14,7 @@ class IntroductionAnimationScreen extends StatefulWidget {
   _IntroductionAnimationScreenState createState() =>
       _IntroductionAnimationScreenState();
 }
-
-class _IntroductionAnimationScreenState
-    extends State<IntroductionAnimationScreen> with TickerProviderStateMixin {
-  AnimationController? _animationController;
-
-  @override
-  void initState() {
-    _animationController =
-        AnimationController(vsync: this, duration: Duration(seconds: 8));
-    _animationController?.animateTo(0.0);
-    super.initState();
-  }
-
-  @override
+=
   void dispose() {
     _animationController?.dispose();
     super.dispose();
@@ -56,19 +43,7 @@ class _IntroductionAnimationScreenState
             WelcomeView(
               animationController: _animationController!,
             ),
-            TopBackSkipView(
-              onBackClick: _onBackClick,
-              onSkipClick: _onSkipClick,
-              animationController: _animationController!,
-            ),
-            CenterNextButton(
-              animationController: _animationController!,
-              onNextClick: _onNextClick,
-            ),
-          ],
-        ),
-      ),
-    );
+
   }
 
   void _onSkipClick() {
@@ -95,15 +70,7 @@ class _IntroductionAnimationScreenState
     }
   }
 
-  void _onNextClick() {
-    if (_animationController!.value >= 0 &&
-        _animationController!.value <= 0.2) {
-      _animationController?.animateTo(0.4);
-    } else if (_animationController!.value > 0.2 &&
-        _animationController!.value <= 0.4) {
-      _animationController?.animateTo(0.6);
-    } else if (_animationController!.value > 0.4 &&
-        _animationController!.value <= 0.6) {
+  !.value <= 0.6) {
       _animationController?.animateTo(0.8);
     } else if (_animationController!.value > 0.6 &&
         _animationController!.value <= 0.8) {

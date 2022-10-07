@@ -54,6 +54,55 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                       top: 16, left: 16, right: 16, bottom: 16),
                   child: Row(
                     children: <Widget>[
+                                offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[          offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[          offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[          offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[          offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[          offset: const Offset(1.1, 1.1),
+                        blurRadius: 10.0),
+                  ],
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      top: 16, left: 16, right: 16, bottom: 16),
+                  child: Row(
+                    children: <Widget>[
                       Expanded(
                         child: Column(
                           children: <Widget>[

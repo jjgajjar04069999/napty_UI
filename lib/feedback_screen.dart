@@ -25,7 +25,40 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
               isLightMode ? AppTheme.nearlyWhite : AppTheme.nearlyBlack,
           body: SingleChildScrollView(
             child: SizedBox(
+              height: MediaQuery.of(c
+                                    
               height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+              height: MediaQuery.of(context).size.height,
+              child: Column(ontext).size.height,
               child: Column(
                 children: <Widget>[
                   Container(

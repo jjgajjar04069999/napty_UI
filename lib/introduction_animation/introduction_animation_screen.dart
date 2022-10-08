@@ -45,7 +45,98 @@ class IntroductionAnimationScreen extends StatefulWidget {
             ),
 
   }
-
+IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )
   void _onSkipClick() {
     _animationController?.animateTo(0.8,
         duration: Duration(milliseconds: 1200));

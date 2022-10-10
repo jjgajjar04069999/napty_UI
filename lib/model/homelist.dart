@@ -30,5 +30,28 @@ class HomeList {
       imagePath: 'assets/design_course/design_course.png',
       navigateScreen: DesignCourseHomeScreen(),
     ),
+      HomeList(
+      imagePath: 'assets/fitness_app/fitness_app.png',
+      navigateScreen: FitnessAppHomeScreen(),
+    ),
+    HomeList(
+      imagePath: 'assets/design_course/design_course.png',
+      navigateScreen: DesignCourseHomeScreen(),
+    ),
+      HomeList(
+      imagePath: 'assets/fitness_app/fitness_app.png',
+      navigateScreen: FitnessAppHomeScreen(),
+    ),
+    HomeList(
+      imagePath: 'assets/design_course/design_course.png',
+      navigateScreen: DesignCourseHomeScreen(),
+    ),  HomeList(
+      imagePath: 'assets/fitness_app/fitness_app.png',
+      navigateScreen: FitnessAppHomeScreen(),
+    ),
+    HomeList(
+      imagePath: 'assets/design_course/design_course.png',
+      navigateScreen: DesignCourseHomeScreen(),
+    ),
   ];
 }

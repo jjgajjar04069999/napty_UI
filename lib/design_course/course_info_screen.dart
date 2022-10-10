@@ -32,7 +32,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
       opacity1 = 1.0;
     });
     await Future<dynamic>.delayed(const Duration(milliseconds: 200));
-    setState(() {
+    setState(() { parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
       opacity2 = 1.0;
     });
     await Future<dynamic>.delayed(const Duration(milliseconds: 200));
@@ -48,7 +51,13 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
         24.0;
     return Container(
       color: DesignCourseAppTheme.nearlyWhite,
-      child: Scaffold(
+      child: Scaffold( parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState(); parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
         backgroundColor: Colors.transparent,
         body: Stack(
           children: <Widget>[
@@ -65,7 +74,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
               bottom: 0,
               left: 0,
               right: 0,
-              child: Container(
+              child: Container( parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
                 decoration: BoxDecoration(
                   color: DesignCourseAppTheme.nearlyWhite,
                   borderRadius: const BorderRadius.only(
@@ -97,7 +109,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                             child: Text(
                               'Web Design\nCourse',
                               textAlign: TextAlign.left,
-                              style: TextStyle(
+                              style: TextStyle( parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
                                 fontWeight: FontWeight.w600,
                                 fontSize: 22,
                                 letterSpacing: 0.27,
@@ -115,7 +130,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                 Text(
                                   '\$28.99',
                                   textAlign: TextAlign.left,
-                                  style: TextStyle(
+                                  style: TextSty parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();le(
                                     fontWeight: FontWeight.w200,
                                     fontSize: 22,
                                     letterSpacing: 0.27,
@@ -134,7 +152,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                           letterSpacing: 0.27,
                                           color: DesignCourseAppTheme.grey,
                                         ),
-                                      ),
+                                      ), parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
                                       Icon(
                                         Icons.star,
                                         color: DesignCourseAppTheme.nearlyBlue,
@@ -197,7 +218,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                     height: 48,
                                     child: Container(
                                       decoration: BoxDecoration(
-                                        color: DesignCourseAppTheme.nearlyWhite,
+                                        color: Desi parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();gnCourseAppTheme.nearlyWhite,
                                         borderRadius: const BorderRadius.all(
                                           Radius.circular(16.0),
                                         ),
@@ -290,7 +314,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
             Padding(
               padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
               child: SizedBox(
-                width: AppBar().preferredSize.height,
+                width: AppBar().preferredSize.height, parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();
                 height: AppBar().preferredSize.height,
                 child: Material(
                   color: Colors.transparent,
@@ -342,7 +369,10 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                   fontWeight: FontWeight.w600,
                   fontSize: 14,
                   letterSpacing: 0.27,
-                  color: DesignCourseAppTheme.nearlyBlue,
+                  color: DesignCourseAppTheme.nearlyB parent: animationController!,
+        curve: Interval(0, 1.0, curve: Curves.fastOutSlowIn)));
+    setData();
+    super.initState();lue,
                 ),
               ),
               Text(

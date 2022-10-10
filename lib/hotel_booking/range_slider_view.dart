@@ -166,6 +166,37 @@ class CustomRangeThumbShape extends RangeSliderThumbShape {
           ..maskFihttps://github.com/Ali03Developer/napty_UI
   }
 
+      
+    canvas.drawPath(
+        Path()
+          ..addOval(Rect.fromPoints(Offset(center.dx + 12, center.dy + 12),
+              Offset(center.dx - 12, center.dy - 12)))
+          ..fillType = PathFillType.evenOdd,
+        Paint()
+          ..color = Colors.black.withOpacity(0.5)
+          ..maskFihttps://github.com/Ali03Developer/napty_UI
+  }
+
+    canvas.drawPath(
+        Path()
+          ..addOval(Rect.fromPoints(Offset(center.dx + 12, center.dy + 12),
+              Offset(center.dx - 12, center.dy - 12)))
+          ..fillType = PathFillType.evenOdd,
+        Paint()
+          ..color = Colors.black.withOpacity(0.5)
+          ..maskFihttps://github.com/Ali03Developer/napty_UI
+  }
+
+    canvas.drawPath(
+        Path()
+          ..addOval(Rect.fromPoints(Offset(center.dx + 12, center.dy + 12),
+              Offset(center.dx - 12, center.dy - 12)))
+          ..fillType = PathFillType.evenOdd,
+        Paint()
+          ..color = Colors.black.withOpacity(0.5)
+          ..maskFihttps://github.com/Ali03Developer/napty_UI
+  }
+
   Path _rightTriangle(double size, Offset thumbCenter, {bool invert = false}) {
     final Path thumbPath = Path();
     final double sign = invert ? -1.0 : 1.0;
@@ -194,14 +225,4 @@ class CustomRangeThumbShape extends RangeSliderThumbShape {
   }   canvas.drawPath(
         Path()
           ..addOval(Rect.fromPoints(Offset(center.dx + 12, center.dy + 12),
-              Offset(center.dx - 12, center.dy - 12)))
-          ..fillType = PathFillType.evenOdd,
-        Paint()
-          ..color = Colors.black.withOpacity(0.5)
-          ..maskFihttps://github.com/Ali03Developer/napty_UI
-  }
-  }
 
-  Path _leftTriangle(double size, Offset thumbCenter) =>
-      _rightTriangle(size, thumbCenter, invert: true);
-}

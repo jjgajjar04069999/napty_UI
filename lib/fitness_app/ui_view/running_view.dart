@@ -46,7 +46,443 @@ class RunningView extends StatelessWidget {
                           child: Stack(
                             alignment: Alignment.topLeft,
                             children: <Widget>[
-                              ClipRRect(
+                              ClipRRe
+                                    Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],      Padding(
+                        padding: const EdgeInsets.only(top: 16, bottom: 16),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FitnessAppTheme.white,
+                            borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(8.0),
+                                bottomLeft: Radius.circular(8.0),
+                                bottomRight: Radius.circular(8.0),
+                                topRight: Radius.circular(8.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: Offset(1.1, 1.1),
+                                  blurRadius: 10.0),
+                            ],ct(
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(8.0)),
                                 child: SizedBox(

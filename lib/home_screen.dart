@@ -86,6 +86,650 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                                     Navigator.push<dynamic>(
                                       context,
                                       MaterialPageRoute<dynamic>(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
+  void initState() {
+    animationController = AnimationController(
+        duration: const Duration(milliseconds: 2000), vsync: this);
+    super.initState();
+  }
+
+  Future<bool> getData() async {
+    await Future<dynamic>.delayed(const Duration(milliseconds: 0));
+    return true;
+  }
+
+  @override
+  void dispose() {
+    animationController?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    var brightness = MediaQuery.of(context).platformBrightness;
+    bool isLightMode = brightness == Brightness.light;
+    return Scaffold(
+      backgroundColor:
+          isLightMode == true ? AppTheme.white : AppTheme.nearlyBlack,
+      body: FutureBuilder<bool>(
+        future: getData(),
+        builder: (BuildContext context, AsyncSnapshot<bool> snapshot) {
+          if (!snapshot.hasData) {
+            return const SizedBox();
+          } else {
+            return Padding(
+              padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  appBar(),
+                  Expanded(
+                    child: FutureBuilder<bool>(
+                      future: getData(),
+                      builder:
+                          (BuildContext context, AsyncSnapshot<bool> snapshot) {
+                        if (!snapshot.hasData) {
+                          return const SizedBox();
+                        } else {
+                          return GridView(
                                         builder: (BuildContext context) =>
                                             homeList[index].navigateScreen!,
                                       ),
